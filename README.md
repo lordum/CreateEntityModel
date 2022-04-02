@@ -1,0 +1,2 @@
+# CreateEntityModel
+这是C#用于连接数据库生成实体类的工具，fork过来的仓库只支持了MySQL和SqlServer数据库；我对代码进行扩展，支持了PostgreSql数据库
