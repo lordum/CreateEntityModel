@@ -9,6 +9,7 @@
       "CreateEntityModel/1.0.0": {
         "dependencies": {
           "MySql.Data": "8.0.23",
+          "Npgsql": "5.0.11",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
@@ -119,6 +120,17 @@
           "lib/netstandard2.1/Zstandard.Net.dll": {
             "assemblyVersion": "1.1.7.0",
             "fileVersion": "1.1.7.0"
+          }
+        }
+      },
+      "Npgsql/5.0.11": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Npgsql.dll": {
+            "assemblyVersion": "5.0.11.0",
+            "fileVersion": "5.0.11.0"
           }
         }
       },
@@ -241,6 +253,7 @@
         }
       },
       "System.Memory/4.5.3": {},
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
       "System.Security.AccessControl/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -371,6 +384,13 @@
       "path": "mysql.data/8.0.23",
       "hashPath": "mysql.data.8.0.23.nupkg.sha512"
     },
+    "Npgsql/5.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tCc36FSYqdYN/JQUaR2KkQj54suYPg5Jl6LXOGZ6MiiqnwDHDXkEKwxhsqR6+Ovh3MZ4yZltkKYJu9JG3WZZ9g==",
+      "path": "npgsql/5.0.11",
+      "hashPath": "npgsql.5.0.11.nupkg.sha512"
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -447,6 +467,13 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "System.Security.AccessControl/4.7.0": {
       "type": "package",

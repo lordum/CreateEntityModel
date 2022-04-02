@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo\\自动生成实体类\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj": {}
+    "D:\\Projects\\dotnet\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj": {}
   },
   "projects": {
-    "E:\\Demo\\自动生成实体类\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj": {
+    "D:\\Projects\\dotnet\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\自动生成实体类\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj",
+        "projectUniqueName": "D:\\Projects\\dotnet\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj",
         "projectName": "CreateEntityModel",
-        "projectPath": "E:\\Demo\\自动生成实体类\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\自动生成实体类\\CreateEntityModel\\CreateEntityModel\\obj\\",
+        "projectPath": "D:\\Projects\\dotnet\\CreateEntityModel\\CreateEntityModel\\CreateEntityModel.csproj",
+        "packagesPath": "C:\\Users\\Office\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\dotnet\\CreateEntityModel\\CreateEntityModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Office\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://localhost:82/nuget": {},
+          "D:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "http://192.168.11.146:8073/repository/gisq-group/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +50,10 @@
               "target": "Package",
               "version": "[8.0.23, )"
             },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
@@ -68,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

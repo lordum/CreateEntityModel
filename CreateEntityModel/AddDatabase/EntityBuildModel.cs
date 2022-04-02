@@ -13,7 +13,7 @@ namespace CreateEntityModel.AddDatabase
         /// <summary>
         /// 命名空间的名字
         /// </summary>
-        public string NamespaceName { get; set; } = "Models";
+        public string NamespaceName { get; set; } = "GISQ.NJQ.DataEntity";
         /// <summary>
         /// 使用委托自定义类名规则
         /// </summary>
